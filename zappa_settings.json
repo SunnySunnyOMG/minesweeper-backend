@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "aws_region": "ca-central-1",
+        "django_settings": "api_server.settings",
+        "profile_name": "default",
+        "project_name": "api-server",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-4v1kjnoc0",
+        "vpc_config": {
+            "SubnetIds": [
+                "subnet-d8c569a2",
+                "subnet-0873e360"
+            ],
+            "SecurityGroupIds": [
+                "sg-0d67697808137ce81"
+            ]
+        }
+    }
+}
